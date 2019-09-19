@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title{
+    height: 60%;
+    text-align: center;
+    margin: auto;
+    font-size: 60px;
+    font-weight: 200;
+    position: absolute;
+}
+
+.info{
+    height: 40%;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 200;
+    position: absolute;
+    bottom: 0;
+}
+
+.triplets{
+    margin-top: 5%;
+}
+
+.howTo{
+    text-decoration-line: overline;
+}
+
+.rules{
+    font-size: 20px;
+    margin: 50px;
+}
+
+button{
+    font-size: 20px;
+    background: none;
+    border: none;
+    box-shadow: 0 0 4px 0px #acacac;
+    padding: 6px 15px;
+    font-weight: bold;
+}
+button:hover{
+    box-shadow: 0 0 2px 0px #acacac;
+    transition: 200ms ease;
+}
+
+.result{
+    font-size: 30px;
+}
